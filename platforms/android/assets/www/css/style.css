@@ -6,26 +6,24 @@ height:100%;
 	background-color: blue;
 }
 
-.ion-content{
-	background-color: red;
-}
+
 
 .ion-side-menu{
 	z-index: 1;
-	background-color: green;
+	background-color: #E0E0E0;
 }
 
 .sidebar-nav{
 	z-index: 1;
-	background-color: green;
+	background-color: #E0E0E0;
 }
 
 .sidebar-nav-content{
-	background-color: green;
+	background-color: #E0E0E0;
 }
 
 .sidebar-nav-item{
-	background-color: green;
+	background-color: gray;
 }
 
 #login-button{
@@ -33,8 +31,12 @@ height:100%;
 	width: 95%;
 }
 
+.contenido{
+	background-color: #E0E0E0;
+}
+
 .page-wrap{
-background-color: gray;
+background-color: #E0E0E0;
 margin: auto;
 height: auto;
 min-height:100%;

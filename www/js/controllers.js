@@ -33,20 +33,6 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})
-
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-})
-
 .controller('CategoryListCtrl', function ($location, $scope, Category) {
     Category.query(function (data) {
         $scope.categories = data;
@@ -117,12 +103,10 @@ angular.module('starter.controllers', [])
     })
 
 .controller('ImagesListCtrl', function ($location, $scope, Images) {
-  console.log(Images);
     Images.query(function (data) {
         $scope.images = data;
     });
     $scope.insert = function (currentImages) {
-        console.log("llega ok." + currentImages.code);
         Images.add({}, currentImages);
         $location.path('/images');
     };

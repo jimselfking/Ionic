@@ -1,0 +1,21 @@
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes.dex : \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionicframework/thevoyeurapp448559/CordovaApp.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionicframework/thevoyeurapp448559/R$attr.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionicframework/thevoyeurapp448559/R.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionicframework/thevoyeurapp448559/R$drawable.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionicframework/thevoyeurapp448559/R$string.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionicframework/thevoyeurapp448559/BuildConfig.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionicframework/thevoyeurapp448559/R$xml.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$3.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$1.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$2.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$3.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$2.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$1.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar.class \
+/home/jimselfking/IonicProjects/TheVoyeurApp/platforms/android/ant-build/dexedLibs/classes-2a6df89b63dec6cc3e994ead2e71ad09.jar \

@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.categories', 'starter.config', 'ngCordova', 'ngResource'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -52,17 +52,27 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: "templates/playlists.html",
-          controller: 'PlaylistsCtrl'
+          controller: 'CategoryListCtrl'
         }
       }
     })
 
   .state('app.single', {
-    url: "/playlists/:playlistId",
+    url: "/playlist/:category_id",
     views: {
       'menuContent': {
         templateUrl: "templates/playlist.html",
-        controller: 'PlaylistCtrl'
+        controller: 'ItemDetailCtrl'
+      }
+    }
+  })
+
+  .state('app.images', {
+    url: "/images/:item_id",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/images.html",
+        controller: 'ImageDetailCtrl'
       }
     }
   });
